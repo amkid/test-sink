@@ -1,0 +1,27 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png);
+    background-size: 100px;
+}
+
+.box {
+    width: 800px;
+    height: 600px;
+    background-color: aqua;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 49%, rgba(0, 0, 0, 0.5) 86%), 
+    url(../img/img_1.jpg);
+    background-repeat: no-repeat;
+    background-position: top 100px, center;
+    background-size: cover;
+}
+p {
+    color: floralwhite;
+    text-align: center;
+    font-size: 3em;
+    line-height: 600px;
+}
