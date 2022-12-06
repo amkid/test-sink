@@ -25,3 +25,17 @@ p {
     font-size: 3em;
     line-height: 600px;
 }
+.thumb {
+    width: 300px;
+    height: 200px;
+    outline: 2px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.thumb-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+
+}
